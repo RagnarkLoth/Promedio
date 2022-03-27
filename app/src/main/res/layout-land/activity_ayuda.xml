@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pizarra"
+    android:orientation="vertical"
+    tools:context=".AyudaActivity" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0.05"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/funcionamiento_de_la_aplicacion"
+        android:textAlignment="center"
+        android:textColor="#D8DFE6D5"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="650dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="@string/el_software_tiene_como_funcionalidad_en_sacar_el_promedio_de_las_5_materias_que_viste_durante_el_periodo_su_funcionamiento_es_simple_solo_debes_escoger_entre_los_dos_botones_que_se_te_mostro_en_la_pantalla_principal_un_bot_n_es_para_ir_y_ver_la_cantidad_de_usuarios_que_se_han_registrado_hasta_ahora_en_la_aplicaci_n_la_cantidad_de_usuarios_que_han_ganado_el_periodo_los_que_lo_han_perdido_y_los_que_quedaron_en_recuperaci_n_antes_de_presionar_el_bot_n_gris_se_debe_completar_el_formulario_que_esta_arriba_de_este_dicho_formulario_servir_para_registrarnos_en_el_sistema_una_vez_completado_el_formulario_podemos_presionar_con_seguridad_el_bot_n_gris_una_vez_presionado_nos_mandara_a_otra_pantalla_donde_tendremos_dos_campos_y_una_serie_de_opciones_que_nos_permitir_ingresar_las_5_materias_los_dos_campos_se_compondr_n_del_nombre_de_la_materia_que_vamos_a_registrar_y_la_nota_definitiva_que_se_nos_dio_de_dicha_materia_para_cambiar_opci_n_e_ingresar_el_resto_de_materias_debemos_presionar_a_la_lista_de_opciones_que_est_n_debajo_del_titulo_principal_una_vez_presionado_dicha_lista_podemos_escoger_la_materia_que_queremos_registrar_estas_materias_tendr_n_los_mismos_campos_para_su_respectivo_diligenciamiento_una_vez_terminado_de_llenar_los_campos_de_cada_materia_correctamente_podemos_presionar_el_bot_n_gris_que_podemos_ver_en_la_parte_de_abajo_de_la_pantalla_una_vez_presionado_nos_mandara_a_otra_pantalla_donde_podremos_visualizar_las_materias_que_registramos_con_sus_respectivas_notas_y_el_sistema_nos_mostrara_el_promedio_que_saco_con_la_sumatoria_y_divisi_n_seg_n_la_cantidad_de_materias_que_ingresamos_tambi_n_el_sistema_nos_indicara_en_un_mensaje_si_pasamos_o_no_el_periodo_y_por_ultimo_el_sistema_nos_mostrar_un_conteo_que_significara_el_tiempo_que_tendremos_para_visualizar_los_resultados_una_vez_que_pase_dicho_conteo_el_sistema_nos_enviara_a_la_pantalla_principal_para_un_nuevo_registro"
+                android:textAlignment="center"
+                android:textColor="#D8DFE6D5"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0.12">
+
+        <Button
+            android:id="@+id/idButtonVolverA"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/bordes_boton"
+            android:backgroundTint="#474A44"
+            android:fontFamily="casual"
+            android:text="@string/volver"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

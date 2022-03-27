@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:opacity="opaque"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/verde_tablero"/>
+
+    <item android:left="70dp"
+        android:right="70dp"
+        android:top="300dp"
+        android:bottom="300dp">
+
+        <bitmap android:src="@drawable/libro_abierto"/>
+
+    </item>
+
+</layer-list>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pizarra"
+    android:orientation="vertical"
+    tools:context=".AyudaActivity" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0.05"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="FUNCIONAMIENTO DE LA APLICACION"
+        android:textAlignment="center"
+        android:textColor="#D8DFE6D5"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0.1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="El software tiene como funcionalidad en sacar el promedio de las 5 materias que viste durante el periodo, su funcionamiento es simple, solo debes escoger entre los dos botones que se te mostro en la pantalla principal, un botón es para ir y ver la cantidad de usuarios que se han registrado hasta ahora en la aplicación, la cantidad de usuarios que han ganado el periodo, los que lo han perdido y los que quedaron en recuperación. Antes de presionar el botón gris, se debe completar el formulario que esta arriba de este, dicho formulario servirá para registrarnos en el sistema, una vez completado el formulario podemos presionar con seguridad el botón gris, una vez presionado nos mandara a otra pantalla donde tendremos dos campos y una serie de opciones que nos permitirá ingresar las 5 materias, los dos campos se compondrán del nombre de la materia que vamos a registrar y la nota definitiva que se nos dio de dicha materia, para cambiar opción e ingresar el resto de materias, debemos presionar a la lista de opciones que están debajo del titulo principal, una vez presionado dicha lista, podemos escoger la materia que queremos registrar, estas materias tendrán los mismos campos para su respectivo diligenciamiento, una vez terminado de llenar los campos de cada materia correctamente, podemos presionar el botón gris que podemos ver en la parte de abajo de la pantalla, una vez presionado nos mandara a otra pantalla donde podremos visualizar las materias que registramos con sus respectivas notas y el sistema nos mostrara el promedio que saco con la sumatoria y división según la cantidad de materias que ingresamos, también el sistema nos indicara en un mensaje si pasamos o no el periodo y por ultimo el sistema nos mostrar un conteo que significara el tiempo que tendremos para visualizar los resultados, una vez que pase dicho conteo el sistema nos enviara a la pantalla principal para un nuevo registro. "
+                android:textColor="#D8DFE6D5"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0.055">
+
+        <Button
+            android:id="@+id/idButtonVolverA"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bordes_boton"
+            android:backgroundTint="#474A44"
+            android:fontFamily="casual"
+            android:text="VOLVER"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

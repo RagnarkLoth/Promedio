@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/idTextNombreMaterias"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@drawable/bordes_tabla"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="@string/textview"
+            android:textColor="#D8DFE6D5"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/idTextNotaMaterias"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@drawable/bordes_tabla"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="@string/textview"
+            android:textColor="#D8DFE6D5"
+            android:textSize="25sp" />
+    </TableRow>
+
+</TableRow>

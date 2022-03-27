@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pizarra"
+    tools:context=".EstadisticasActivity">
+
+    <TextView
+        android:id="@+id/idTextGanaron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="GANARON"
+        android:textColor="#D8DFE6D5"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/idTextContadorG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idTextContadorP"
+        app:layout_constraintVertical_bias="0.545" />
+
+    <TextView
+        android:id="@+id/idTextPerdieron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="PERDIERON"
+        android:textColor="#D8DFE6D5"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/idTextContadorPe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.907"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idTextContadorP"
+        app:layout_constraintVertical_bias="0.552" />
+
+    <TextView
+        android:id="@+id/idTextProcesados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="200dp"
+        android:fontFamily="casual"
+        android:text="ESTUDIANTES PROCESADOS"
+        android:textColor="#D8DFE6D5"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/idTextContadorP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.767" />
+
+    <TextView
+        android:id="@+id/idTextRecuperar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="RECUPERACION"
+        android:textColor="#D8DFE6D5"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/idTextContadorR"
+        app:layout_constraintEnd_toStartOf="@+id/idTextPerdieron"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toEndOf="@+id/idTextGanaron"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.871" />
+
+    <TextView
+        android:id="@+id/idTextContadorP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="357dp"
+        android:layout_marginEnd="357dp"
+        android:fontFamily="casual"
+        android:text="0"
+        android:textColor="#D8DFE6D5"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/idTextRecuperar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77" />
+
+    <TextView
+        android:id="@+id/idTextContadorG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="0"
+        android:textColor="#D8DFE6D5"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723" />
+
+    <TextView
+        android:id="@+id/idTextContadorR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="0"
+        android:textColor="#D8DFE6D5"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/idButtonVolver"
+        app:layout_constraintEnd_toStartOf="@+id/idTextContadorPe"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toEndOf="@+id/idTextContadorG"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846" />
+
+    <TextView
+        android:id="@+id/idTextContadorPe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="0"
+        android:textColor="#D8DFE6D5"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723" />
+
+    <Button
+        android:id="@+id/idButtonVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#474A44"
+        android:fontFamily="casual"
+        android:text="VOLVER"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.986" />
+</android.support.constraint.ConstraintLayout>

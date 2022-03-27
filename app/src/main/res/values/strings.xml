@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="documento">Documento</string>
+    <string name="iniciar">INICIAR</string>
+    <string name="direccion">Direccion</string>
+    <string name="telefono">Telefono</string>
+    <string name="edad">Edad</string>
+    <string name="nombre">Nombre</string>
+    <string name="mis_peque_os_saltamontes">MIS PEQUEÑOS SALTAMONTES</string>
+    <string name="textviewuno">TextView</string>
+    <string name="textviewdos">TextView</string>
+    <string name="textviewtres">TextView</string>
+    <string name="textviewcuatro">TextView</string>
+    <string name="textview">TextView</string>
+    <string name="nota_materia">Nota Materia:</string>
+    <string name="nombre_materia">Nombre Materia:</string>
+    <string name="procesar">PROCESAR</string>
+    <string name="funcionamiento_de_la_aplicacion">FUNCIONAMIENTO DE LA APLICACION</string>
+    <string name="el_software_tiene_como_funcionalidad_en_sacar_el_promedio_de_las_5_materias_que_viste_durante_el_periodo_su_funcionamiento_es_simple_solo_debes_escoger_entre_los_dos_botones_que_se_te_mostro_en_la_pantalla_principal_un_bot_n_es_para_ir_y_ver_la_cantidad_de_usuarios_que_se_han_registrado_hasta_ahora_en_la_aplicaci_n_la_cantidad_de_usuarios_que_han_ganado_el_periodo_los_que_lo_han_perdido_y_los_que_quedaron_en_recuperaci_n_antes_de_presionar_el_bot_n_gris_se_debe_completar_el_formulario_que_esta_arriba_de_este_dicho_formulario_servir_para_registrarnos_en_el_sistema_una_vez_completado_el_formulario_podemos_presionar_con_seguridad_el_bot_n_gris_una_vez_presionado_nos_mandara_a_otra_pantalla_donde_tendremos_dos_campos_y_una_serie_de_opciones_que_nos_permitir_ingresar_las_5_materias_los_dos_campos_se_compondr_n_del_nombre_de_la_materia_que_vamos_a_registrar_y_la_nota_definitiva_que_se_nos_dio_de_dicha_materia_para_cambiar_opci_n_e_ingresar_el_resto_de_materias_debemos_presionar_a_la_lista_de_opciones_que_est_n_debajo_del_titulo_principal_una_vez_presionado_dicha_lista_podemos_escoger_la_materia_que_queremos_registrar_estas_materias_tendr_n_los_mismos_campos_para_su_respectivo_diligenciamiento_una_vez_terminado_de_llenar_los_campos_de_cada_materia_correctamente_podemos_presionar_el_bot_n_gris_que_podemos_ver_en_la_parte_de_abajo_de_la_pantalla_una_vez_presionado_nos_mandara_a_otra_pantalla_donde_podremos_visualizar_las_materias_que_registramos_con_sus_respectivas_notas_y_el_sistema_nos_mostrara_el_promedio_que_saco_con_la_sumatoria_y_divisi_n_seg_n_la_cantidad_de_materias_que_ingresamos_tambi_n_el_sistema_nos_indicara_en_un_mensaje_si_pasamos_o_no_el_periodo_y_por_ultimo_el_sistema_nos_mostrar_un_conteo_que_significara_el_tiempo_que_tendremos_para_visualizar_los_resultados_una_vez_que_pase_dicho_conteo_el_sistema_nos_enviara_a_la_pantalla_principal_para_un_nuevo_registro">El software tiene como funcionalidad en sacar el promedio de las 5 materias que viste durante el periodo, su funcionamiento es simple, solo debes escoger entre los dos botones que se te mostro en la pantalla principal, un botón es para ir y ver la cantidad de usuarios que se han registrado hasta ahora en la aplicación, la cantidad de usuarios que han ganado el periodo, los que lo han perdido y los que quedaron en recuperación. Antes de presionar el botón gris, se debe completar el formulario que esta arriba de este, dicho formulario servirá para registrarnos en el sistema, una vez completado el formulario podemos presionar con seguridad el botón gris, una vez presionado nos mandara a otra pantalla donde tendremos dos campos y una serie de opciones que nos permitirá ingresar las 5 materias, los dos campos se compondrán del nombre de la materia que vamos a registrar y la nota definitiva que se nos dio de dicha materia, para cambiar opción e ingresar el resto de materias, debemos presionar a la lista de opciones que están debajo del titulo principal, una vez presionado dicha lista, podemos escoger la materia que queremos registrar, estas materias tendrán los mismos campos para su respectivo diligenciamiento, una vez terminado de llenar los campos de cada materia correctamente, podemos presionar el botón gris que podemos ver en la parte de abajo de la pantalla, una vez presionado nos mandara a otra pantalla donde podremos visualizar las materias que registramos con sus respectivas notas y el sistema nos mostrara el promedio que saco con la sumatoria y división según la cantidad de materias que ingresamos, también el sistema nos indicara en un mensaje si pasamos o no el periodo y por ultimo el sistema nos mostrar un conteo que significara el tiempo que tendremos para visualizar los resultados, una vez que pase dicho conteo el sistema nos enviara a la pantalla principal para un nuevo registro.</string>
+    <string name="volver">VOLVER</string>
+
+    <string-array name="materias">
+        <item>Materia Uno</item>
+        <item>Materia Dos</item>
+        <item>Materia Tres</item>
+        <item>Materia Cuatro</item>
+        <item>Materia Cinco</item>
+    </string-array>
+
+</resources>

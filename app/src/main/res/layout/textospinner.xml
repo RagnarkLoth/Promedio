@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemspinner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2c3b38 "
+    android:fontFamily="casual"
+    android:text="TextView"
+    android:textColor="#D8DFE6D5"
+    android:textSize="20sp" />
