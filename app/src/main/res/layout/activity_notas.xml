@@ -61,7 +61,7 @@
         android:ems="10"
         android:fontFamily="casual"
         android:inputType="textPersonName"
-        android:maxLength="5"
+        android:maxLength="30"
         android:textAlignment="center"
         android:textColor="#D8DFE6D5"
         android:textCursorDrawable="@drawable/edit_text_cursor"

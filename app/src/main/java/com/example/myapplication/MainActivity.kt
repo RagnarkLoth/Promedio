@@ -126,9 +126,10 @@ class MainActivity : AppCompatActivity() {
 
             }else if(titulo.text.equals("Telefono")){
 
-                Integer.parseInt(campo.text.toString())
+                campo.text.toString().toLong()
 
             }
+
 
             return true
 

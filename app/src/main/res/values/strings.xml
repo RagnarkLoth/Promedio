@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Promedio saltamontes</string>
     <string name="documento">Documento</string>
     <string name="iniciar">INICIAR</string>
     <string name="direccion">Direccion</string>

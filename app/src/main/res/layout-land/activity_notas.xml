@@ -65,11 +65,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="140dp"
         android:layout_marginEnd="116dp"
+        android:autofillHints=""
         android:backgroundTint="#D8DFE6D5"
         android:ems="10"
         android:fontFamily="casual"
         android:inputType="textPersonName"
-        android:maxLength="5"
+        android:maxLength="30"
         android:textAlignment="center"
         android:textColor="#D8DFE6D5"
         android:textCursorDrawable="@drawable/edit_text_cursor"
@@ -79,8 +80,7 @@
         app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.601"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.601" />
 
     <TextView
         android:id="@+id/idTextNotaMateria"
