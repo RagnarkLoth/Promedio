@@ -100,7 +100,7 @@ class TablaNotas : AppCompatActivity() {
             pie.findViewById<View>(R.id.idTextNotaMaterias) as TextView
 
         textViewNombrePromedio.setText("Promedio")
-        textViewNotaPromedio.setText((notaPromedio/5).toString().substring(0,4))
+        textViewNotaPromedio.setText((notaPromedio/5).toString().substring(0,3))
 
         if((notaPromedio/5) > 3.5){
 

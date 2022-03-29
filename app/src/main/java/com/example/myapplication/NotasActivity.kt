@@ -137,8 +137,8 @@ class NotasActivity : AppCompatActivity() {
         }
 
         else{
+            return validacionOrdenDatos(nota.toString(), seccion)
 
-            return validacionRangoNotas(nota.toDouble(),seccion)
         }
 
     }
@@ -220,6 +220,36 @@ class NotasActivity : AppCompatActivity() {
                 sharedPrefEdit.apply()
             }
         }
+    }
+
+    fun validacionOrdenDatos(nota:String, seccion: String):Boolean{
+
+        if(nota.substring(0).equals(".")){
+
+            Toast.makeText(this, "Se detecto un comienzo con punto, no se debe comenzar con punto", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "En la seccion ${seccion} comienza con un punto", Toast.LENGTH_SHORT).show()
+            return false
+
+        }else{
+            var errores:Int = 0
+            nota.forEach {
+                letra ->
+                    if (letra.equals(",")){
+                        Toast.makeText(this, "Solo se aceptan puntos en las notas, no comas", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "En la seccion ${seccion} hay una coma", Toast.LENGTH_SHORT).show()
+                        errores++
+                    }
+            }
+            if(errores == 0){
+
+                return  validacionRangoNotas(nota.toDouble(),seccion);
+            }else{
+
+                return false;
+
+            }
+        }
+
     }
 
 
